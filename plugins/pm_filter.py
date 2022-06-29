@@ -435,7 +435,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.reply_text(
             text=script.HELP_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
-            disable_web_page_preview=True
+            
             parse_mode='html'
         )
     elif query.data == "about":
@@ -452,7 +452,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.reply_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
             reply_markup=reply_markup,
-            disable_web_page_preview=True
+            
             parse_mode='html'
         )
     elif query.data == "source":
