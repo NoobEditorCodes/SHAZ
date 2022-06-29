@@ -435,7 +435,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.reply_text(
             text=script.HELP_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
-            parse_mode='html
+            parse_mode='html'
             
         )
     elif query.data == "about":
