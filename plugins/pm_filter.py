@@ -413,12 +413,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🍁 𝐀𝐁𝐎𝐔𝐓', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(        
-            #sticker="CAACAgIAAxkBAAECruFiurKqVfsKP1cPVPdNZJmwJPMOyAACVBYAAtB7QUn8uVjZ80ZWKB4E",            
-            text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
+        await query.message.delete()
+        await query.message.reply_sticker(        
+            sticker="CAACAgIAAxkBAAECr6BiuwoF4Y1G5Vfwb48tt0rkFmFFugACdBkAAv3EyUkrrD3DFv2fpR4E",            
             reply_markup=reply_markup,
-            disable_web_page_preview=True,
-            parse_mode='html'
         )
         await query.answer('Piracy Is Crime'),
     elif query.data == "help":
