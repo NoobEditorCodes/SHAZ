@@ -16,8 +16,8 @@ class script(object):
 
 <b>DEVS:</b>
 - SUPPORT BY
-- <a href=https://t.me/mr_MKN>MR MKN TG</a>"""
-- <a href=https://t.me/CLaY995>CLaY995</a>"""
+- <a href=https://t.me/shamil_shaz_1>⚠️𝐒𝐇𝐀𝐌𝐈𝐋⚠️</a>"""
+
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
