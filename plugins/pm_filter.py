@@ -413,7 +413,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🍁 𝐀𝐁𝐎𝐔𝐓', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.reply_sticker(
+        await query.message.edit_sticker(
             sticker="CAACAgIAAxkBAAECruFiurKqVfsKP1cPVPdNZJmwJPMOyAACVBYAAtB7QUn8uVjZ80ZWKB4E",
             reply_markup=reply_markup,
             parse_mode='html'
@@ -435,6 +435,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.reply_text(
             text=script.HELP_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
+            disable_web_page_preview=True,
             parse_mode='html'
             
         )
@@ -451,7 +452,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.delete()
         await query.message.reply_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
-            reply_markup=reply_markup,        
+            reply_markup=reply_markup, 
+            disable_web_page_preview=True,      
             parse_mode='html'
         )
     elif query.data == "source":
@@ -462,6 +464,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.SOURCE_TXT,
             reply_markup=reply_markup,
+            disable_web_page_preview=True,
             parse_mode='html'
         )
     elif query.data == "manuelfilter":
