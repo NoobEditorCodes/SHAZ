@@ -415,6 +415,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
+            disable_web_page_preview=True
             reply_markup=reply_markup,
             parse_mode='html'
         )
@@ -434,8 +435,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.delete()
         await query.message.reply_text(
             text=script.HELP_TXT.format(query.from_user.mention),
+            disable_web_page_preview=True
             reply_markup=reply_markup,
-            
             parse_mode='html'
         )
     elif query.data == "about":
@@ -451,8 +452,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.delete()
         await query.message.reply_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
-            reply_markup=reply_markup,
-            
+            disable_web_page_preview=True
+            reply_markup=reply_markup,        
             parse_mode='html'
         )
     elif query.data == "source":
@@ -462,6 +463,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.SOURCE_TXT,
+            disable_web_page_preview=True
             reply_markup=reply_markup,
             parse_mode='html'
         )
