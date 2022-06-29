@@ -53,8 +53,7 @@ async def start(client, message):
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_sticker(
             sticker="CAACAgIAAxkBAAECruFiurKqVfsKP1cPVPdNZJmwJPMOyAACVBYAAtB7QUn8uVjZ80ZWKB4E",            
-            reply_markup=reply_markup,
-            disable_web_page_preview=True,
+            reply_markup=reply_markup,            
             
         )
         return
@@ -100,7 +99,7 @@ async def start(client, message):
         await message.reply_sticker(
             sticker="CAACAgIAAxkBAAECruFiurKqVfsKP1cPVPdNZJmwJPMOyAACVBYAAtB7QUn8uVjZ80ZWKB4E",            
             reply_markup=reply_markup,
-            disable_web_page_preview=True,
+            
         )
         return
     data = message.command[1]
