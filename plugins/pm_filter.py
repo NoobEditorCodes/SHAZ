@@ -463,11 +463,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('👩‍🦯 𝐁𝐀𝐂𝐊', callback_data='about'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.SOURCE_TXT,
+        await query.message.delete()
+        await query.message.reply_sticker(        
+            sticker="CAACAgIAAxkBAAECr6BiuwoF4Y1G5Vfwb48tt0rkFmFFugACdBkAAv3EyUkrrD3DFv2fpR4E",            
             reply_markup=reply_markup,
-            disable_web_page_preview=True,
-            parse_mode='html'
         )
     elif query.data == "manuelfilter":
         buttons = [[
