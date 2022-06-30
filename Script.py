@@ -17,7 +17,9 @@ class script(object):
 
 ☆ 𝐒𝐞𝐫𝐯𝐞𝐫 : 𝐇𝐞𝐫𝐨𝐤U
 
-☆ 𝐁𝐮𝐢𝐥𝐝 𝐒𝐭𝐚𝐭𝐮𝐬 : V1.1 [𝐁𝐄𝐓𝐀]"""
+☆ 𝐁𝐮𝐢𝐥𝐝 𝐒𝐭𝐚𝐭𝐮𝐬 : V1.1 [𝐁𝐄𝐓𝐀]
+
+         ❤️мαℓσσѕ❤️"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Eva Maria is a open source project. 
 - Source - <a href=https://github.com/EvamariaTG/EvaMaria>EVA-MARIA</a>
