@@ -460,7 +460,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚙️ 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 ⚙️, url='https://t.me/ML_LINKS_01'),            
         ], [
-            InlineKeyboardButton('👩‍🦯 𝐁𝐀𝐂𝐊', callback_data='about')
+            InlineKeyboardButton('👩‍🦯 𝐁𝐀𝐂𝐊', callback_data='about'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
