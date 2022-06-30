@@ -6,11 +6,17 @@ class script(object):
     ABOUT_TXT = """✨ {} ✨
 
 ☆ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫: <a href=https://t.me/shamil_shaz_1>⚠️𝐒𝐇𝐀𝐌𝐈𝐋⚠️</a>
+
 ☆ 𝐋𝐢𝐛𝐫𝐚𝐫𝐲 : 𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦
+
 ☆ 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 : 𝐏𝐲𝐭𝐡𝐨𝐧3
+
 ☆ 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 : 𝐌𝐨𝐧𝐠𝐨𝐃𝐁
+
 ☆ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐞𝐝 𝐒𝐢𝐭𝐞 : 𝐎𝐧𝐥𝐲 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦
+
 ☆ 𝐒𝐞𝐫𝐯𝐞𝐫 : 𝐇𝐞𝐫𝐨𝐤U
+
 ☆ 𝐁𝐮𝐢𝐥𝐝 𝐒𝐭𝐚𝐭𝐮𝐬 : V1.1 [𝐁𝐄𝐓𝐀]"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Eva Maria is a open source project. 
@@ -96,7 +102,7 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
+    STATUS_TXT = """🔰 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
 🔰 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
 🔰 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
 🔰 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
