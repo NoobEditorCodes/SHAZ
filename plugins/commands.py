@@ -80,7 +80,8 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton(" 🔄 Try Again", url=f"https://t.me/{temp.U_NAME}/{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="""**Please Join My Updates Channel to use this Bot!**
+            👉ഈ channel Join ചെയ്തു back വന്നു refresh കൊടുത്താൽ File കിട്ടും""",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
